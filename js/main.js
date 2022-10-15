@@ -7,6 +7,6 @@ $(document).ready(function(){
   $toggleCollapse.click(function(){
       $nav.toggleClass('collapse');
   })
-
+//  this is the first PR 
   
 });
