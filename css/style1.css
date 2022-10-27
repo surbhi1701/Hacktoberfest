@@ -5,7 +5,22 @@
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    background: url(../images/pexels-jonathan-borba-3082804.jpg) center center no-repeat;
+    background-size: 100px 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
  }
+
+ /* .bgWrap{
+    background: center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ } */
 
  :root{
 
@@ -85,28 +100,30 @@ ul{
 }
 
 .nav .nav-brand a{
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     padding: 1rem 0;
     display: block;
     font-family: Abel;
     font-size: 1.6rem;
 }
 
+
 .nav .nav-items{
     display: flex;
+    /* font-size: px; */
     margin: 0;
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
-    font-size: 1.1rem;
+    padding: 1.6rem 1.4rem;
+    /* font-size: 1.1rem; */
     position: relative;
     font-family: Abel,cursive;
     font-size: 1.1rem;
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color:rgb(37, 122, 135);
 }
 
 .nav .nav-items .nav-link:hover a{
@@ -138,4 +155,31 @@ ul{
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: rgb(1, 0, 5);
  }
+ .hero1_section{
+        margin: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border: 3px solid rgb(37, 122, 135);
+        padding: 30px;
+}
+
+.hero2_section{
+    margin: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid rgb(37, 122, 135);
+    padding: 30px;
+}
+
+.hero3_section{
+    margin: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid rgb(37, 122, 135);
+    padding: 30px;
+}
